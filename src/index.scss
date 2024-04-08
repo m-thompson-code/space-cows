@@ -1,0 +1,83 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+} */
+
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: "Cute Font", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+canvas {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+span {
+  opacity: .4;
+  user-select: none;
+  pointer-events: none;
+  color: black;
+  position: fixed;
+  margin: 32px;
+  font-size: 72px;
+  top: 0;
+  left: 0;
+  z-index: 300;
+}
+
+// TODO: is this part of whit url?
+@media (max-width: 1250px) {
+  span {
+      font-size: 48px;
+      margin: 24px;
+  }
+}
+@media (max-width: 900) {
+  span {
+      font-size: 24px;
+      margin: 12px;
+  }
+}
+
+// a {
+//   margin: 32px;
+//   position: fixed;
+//   opacity: .3;
+//   font-size: 72px;
+//   bottom: 0;
+//   right: 0;
+//   color: blueviolet;
+//   z-index: 200;
+//   transition: 300ms;
+// }
+// a:visited {
+//   color: blueviolet;
+// }
+// a:hover, a:active, a:focus, a:focus-within, a:focus-within {
+//   color: white;
+//   opacity: .9;
+//   text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+//     0px -4px 10px rgba(255,255,255,0.3);
+// }
+// a:focus-visible {
+//   outline: blueviolet 2px solid;
+//   outline-offset: 2px;
+// }
+// @media (max-width: 1250px) {
+//   a, span {
+//     font-size: 48px;
+//     margin: 24px;
+//   }
+// }
+// @media (max-width: 900px) {
+//   a, span {
+//     font-size: 24px;
+//     margin: 12px;
+//   }
+// }
